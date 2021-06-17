@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquistas</title>
+    <link rel="stylesheet" href="conquistas.css">
+</head>
+<body>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Créditos</a></li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" alt="Botão de menu" id="menu">
+    </div>
+    
+    
+    <div class="container">
+        <div class="texto-principal">
+            <h1>Conquistas de Ayrton Senna na Fórmula 1</h1>
+            <b>
+                <p>Senna correu durante 10 anos na Fórmula 1, ganhou 41 GPs e três títulos mundiais</p>
+                <p>Ayrton Senna correu na Fórmula 1, de 1984 a 1994. Nesse período, o piloto além de ganhar o título de tricampeão, foi nomeado pelo povo como rei da chuva pelo seu desempenho inigualável na pista molhada. Ele também foi chamado de rei de Mônaco, depois de ganhar tantas corridas no principado e bater o recorde de piloto com maior número de vitórias na pista de Monte Carlo, foram 6 no total: 1987, 1989, 1990, 1991, 1992 e 1993.
+                Senna foi mestre em ultrapassar limites, levar o carro ao máximo e em alcançar número impressionantes. Nesses 10 anos na Fórmula 1, Senna foi autor de nada menos, nada mais que 2982 voltas na liderança e 19 voltas mais rápidas. Disputou 161 GPs, dos quais subiu ao pódio 80 vezes, sendo 41 foram no degrau mais alto, o que rendeu o título de campeão do mundo 3 vezes, em 1988, 1990 e 1991. Confira abaixo todas as vitórias do Senna na F1 ano a ano.</p>
+            </b>
+            <br>
+
+            <div class="fight">
+                <p>Lista das 41 vitórias de Ayrton Senna na Fórmula 1:</p>
+                <p>1985 – Equipe Lotus</p>
+                <ul>
+                    <li>GP de Portugal</li>
+                    <li>GP da Bélgica</li>
+                </ul>
+                <p>1986 – Equipe Lotus</p>
+                <ul>
+                    <li>GP da Espanha</li>
+                    <li>GP dos EUA</li>
+                </ul>
+                <p>1987 – Equipe Lotus</p>
+                <ul>
+                    <li>GP de Mônaco</li>
+                    <li>GP dos EUA</li>
+                </ul>
+                <p>1988 – Campeão do mundo pela Equipe McLaren</p>
+                <ul>
+                    <li>GP de San Marino</li>
+                    <li>GP do Canadá</li>
+                    <li>GP dos EUA</li>
+                    <li>GP da Inglaterra </li>
+                    <li>GP da Alemanha</li>
+                    <li>GP da Hungria</li>
+                    <li>GP da Bélgica</li>
+                    <li>GP do Japão</li>
+                </ul>
+                <p>1989 – Equipe McLaren</p>
+                <ul>
+                    <li>GP de San Marino</li>
+                    <li>GP de Mônaco </li>
+                    <li>GP do México </li>
+                    <li>GP da Alemanha</li>
+                    <li>GP da Bélgica</li>
+                    <li>GP da Espanha</li>
+                </ul>
+                <p>1990 – Campeão do mundo pela Equipe McLaren</p>
+                <ul>
+                    <li>GP dos EUA</li>
+                    <li>GP de Mônaco</li>
+                    <li>GP do Canadá</li>
+                    <li>GP da Alemanha</li>
+                    <li>GP da Bélgica</li>
+                    <li>GP da Itália</li>
+                </ul>
+                    <p>1991 – Campeão do mundo pela Equipe McLaren</p>
+                    <ul>
+                        <li>GP dos EUA</li>
+                        <li>GP do Brasil</li>
+                        <li>GP de San Marino</li>
+                        <li>GP de Mônaco</li>
+                        <li>GP da Hungria</li>
+                        <li>GP da Bélgica</li>
+                        <li>GP da Austrália </li>
+                    </ul>
+                    <p>1992 – Equipe Mclaren</p>
+                    <ul>
+                        <li>GP de Mônaco</li>
+                        <li>GP da Hungria</li>
+                        <li>GP da Itália</li>
+                    </ul>
+                    <p>1993 – Equipe McLaren</p>
+                    <ul>
+                        <li>GP do Brasil </li>
+                        <li>GP da Europa</li>
+                        <li>GP de Mônaco</li>
+                        <li>GP do Japão</li>
+                        <li>GP da Austrália</li>
+                    </ul>
+                    <p>“O brasileiro só aceita título se for de campeão. E eu sou brasileiro”. – Ayrton Senna </p>
+                
+            </div>
+    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                 </p>
+        </div>
+    </div>
+
+    <section id="feature">
+        
+            <div class="features-img">
+                <img src="images/airton-senna-heroi.jpg" alt="">
+            </div>
+        
+    </section>
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+    
+            sideNav.style.right = "-250px";
+    
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "images/close.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "images/menu.png"
+                }
+            }
+        </script>
+</body>
+</html>

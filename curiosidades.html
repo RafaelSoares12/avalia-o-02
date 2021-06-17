@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <link rel="stylesheet" href="curiosidades.css">
+</head>
+<body>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Créditos</a></li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" alt="Botão de menu" id="menu">
+    </div>
+    
+    
+    <div class="container">
+        <div class="texto-principal">
+            <h1>Algumas curiosidades sobre Ayrton Senna</h1>
+            <b>
+                <p>Confira abaixo 10 curiosidades sobre Senna:</p>
+                <br>
+                <ol>
+                    <li>O apelido de Ayrton Senna na infância era Beco. Ele queria ser chamado de “Becão”. Senna ganhou um mini-kart construído pelo pai aos quatro anos.</li>
+                    <li>Ayrton usava as cores do Brasil no seu capacete. Em 1978, quando foi disputar o Campeonato Mundial de Kart, na Europa, as regras da competição exigiam que os capacetes dos pilotos tivessem as cores do país de origem do participante. Ele decidiu manter a tradição na F-1.</li>
+                    <li>No ano de 1983, Senna correu uma prova inteira de Fórmula 3 na Inglaterra com o carro sem freios. Os mecânicos, a princípio, não acreditaram, mas ao verificar as pastilhas viram que elas estavam geladas.</li>
+                    <li>O circuito inglês de Silverstone, onde ele venceu nove provas seguidas na Fórmula 3, foi apelidado de Silvastone, numa referência ao sobrenome Silva do piloto brasileiro.</li>
+                    <li>Ainda na Fórmula 3, em 1983, o piloto brasileiro foi convidado por Frank Williams para testar um dos carros de sua equipe no Autódromo de Donington Park, na Inglaterra. Senna fez tempos melhores que os pilotos oficiais da equipe, Keke Rosberg e Jacques Laffite.</li>
+                    <li>Na primeira temporada de Fórmula 1, em 1984, pilotando uma irregular Toleman, Senna ficou em segundo lugar no GP de Mônaco, atrás de Alain Prost, da McLaren. Chegou a ultrapassar Prost, mas o diretor da prova – o ex-piloto belga Jacky Ickx – alegou que a havia interrompido antes por causa da chuva.</li>
+                    <li>Em 5 de novembro de 1984, Ayrton Senna, recém-contratado pela Lótus, acordou com o lado direito do rosto totalmente paralisado. Estava na Inglaterra. A primeira sensação foi a de um derrame. Mas tudo não passou de uma paralisia facial. Senna fez massagens e usou uma medicação à base de cortisona. Teve uma recaída ao dormir num hotel carioca com o ar condicionado ligado. O piloto só se recuperou totalmente em fevereiro de 1985.</li>
+                    <li>Dois dias antes do GP Brasil de 1987, Ayrton Senna recebeu do Ministério da Aeronáutica o título de piloto de caça honorário da Força Aérea Brasileira. Senna retribuiu a homenagem colando em seu capacete o símbolo do Esquadrão do Primeiro Grupo de Caça, equipe de elite da FAB, que adota como lema o famoso “Senta a Pua”, usado pelos nossos pilotos na Segunda Guerra Mundial.</li>
+                    <li>Ao longo de sua carreira, Ayrton Senna conquistou 41 vitórias (19 de ponta a ponta), 161 GPs, 2.750 voltas na liderança, 65 poles e 3 títulos mundiais.</li>
+                    <li>Em março de 1995, o capacete que Ayrton Senna usou ao conquistar seu primeiro título de Fórmula 1 (1988) foi a leilão. O lance vencedor foi de 45 mil dólares e o capacete tinha os autógrafos de Senna e Xuxa.</li>
+                </ol>
+            </b>
+            
+                
+                 </p>
+        </div>
+    </div>
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+    
+            sideNav.style.right = "-250px";
+    
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "images/close.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "images/menu.png"
+                }
+            }
+        </script>
+</body>
+</html>

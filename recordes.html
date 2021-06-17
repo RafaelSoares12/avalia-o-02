@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordes</title>
+    <link rel="stylesheet" href="recordes.css">
+</head>
+<body>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Créditos</a></li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" alt="Botão de menu" id="menu">
+    </div>
+    
+    
+    <div class="container">
+        <div class="texto-principal">
+            <h1>Recordes de Ayrton Senna</h1>
+            <b>
+                <p>Brasileiro tricampeão segue como o "Rei de Mônaco", com seis vitórias nas ruas de Monte Carlo; confira outras marcas que ídolo ainda domina mesmo após tanto tempo fora da categoria:</p>
+                <h2 style="color: green;">Poles consecutivas</h2>
+                <p>Senna era conhecido por brilhar em voltas lançadas. Assim, sua carreira foi marcada por alto número de pole positions, 65 (40,3 % de aproveitamento)</p>
+                <h2 style="color: green;">Primeiras filas consecutivas</h2>
+                <p>Senna era tão bom em classificações, que, mesmo quando não era pole, ainda conseguia beliscar um segundo lugar e largar na primeira fila. Não à toa, o brasileiro é dono do recorde de primeiras filas consecutivas.</p>
+                <h2 style="color: green;">Vitórias de ponta a ponta</h2>
+                <p>Mas não basta ser rápido em uma volta lançada e conquistar a pole, não é mesmo? Senna também ainda detém o recorde de maior número de vitórias de ponta a ponta, com 19 triunfos.</p>
+                <h2 style="color: green;">O Rei de Mônaco</h2>
+                <p>Com seis vitórias (e de poles) nas ruas do Principado, Ayrton detém o título de "Rei de Mônaco".</p>
+
+
+            </b>
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+    
+            sideNav.style.right = "-250px";
+    
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "images/close.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "images/menu.png"
+                }
+            }
+        </script>
+</body>
+</html>
