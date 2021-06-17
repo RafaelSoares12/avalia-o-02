@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif ;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#111111),url(images/01background.png);
+    background: linear-gradient(rgba(0,0,0,0.5),#111111),url(images/background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
